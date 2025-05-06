@@ -39,7 +39,7 @@ export const TypeCard = ({ name, url }) => {
     return (
 
         <div className="card-ball" >
-            <img className="card-img-top mt-1" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/types/generation-ix/scarlet-violet/${id}.png`} alt={`foto Type ${name}`} />
+            
             <div className="card-body mt-4">
                 <h5 className="card-title mb-1 text-center">{name}</h5>
                 <div className="moreAndFav">

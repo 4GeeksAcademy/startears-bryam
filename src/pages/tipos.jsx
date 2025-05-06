@@ -25,14 +25,7 @@ export const Type = () => {
 
         <div className="contenerdor">
             <div className="vista-detallada m-3 row">
-                <div className="divimagenType col-12 col-sm-6 col-lg-6">
-                    <img
-                        src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/types/generation-ix/scarlet-violet/${id}.png`}
-                        className="img-detalle-type"
-                        alt={'imagen Item'}
-                    />
-                </div>
-
+                
                 <div className="card-body p-3 col-12 col-sm-6 col-lg-6">
                     <h1 className="card-title"> {store.unType.name}</h1>
                     <p>Pokémon of the {store.unType.name} type have an advantage in battle against {store.unType.damage_relations?.doble_damage_from?.name}-type Pokémon, meaning their attacks deal double damage to them. 
