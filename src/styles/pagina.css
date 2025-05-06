@@ -1,0 +1,109 @@
+.estadisticas {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin: 120px 40px 10px 40px;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid #0f93f1;
+    box-shadow: 12px 10px 5px 0px rgba(215, 215, 215, 0.5);
+    width: 90%;
+    justify-self: center;
+}
+
+.scroll_list {
+    max-height: 290px;
+    overflow-y: auto;
+    padding-left: 20px;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 60vw;
+    max-height: 60vh;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+}
+.divimagen {
+    display: flex;
+    justify-content: center;
+
+}
+.divimagenItem {
+    display: flex;
+    justify-content: center;
+
+}
+.divimagenType {
+    display: flex;
+    justify-content: center;
+}
+.img-detalle-type {
+    width: 350px;
+    height: 100px;
+    align-self: center;
+}
+.container {
+    max-width: 1800px;
+    background-color: #eaeaea;
+}
+
+.contenedor {
+    margin-top: 60px;
+}
+
+.listadefavoritos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5px;
+    margin-bottom: 5px;
+}
+
+.estadisticas-type {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin: 120px 40px 10px 40px;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid #0f93f1;
+    box-shadow: 12px 10px 5px 0px rgba(215, 215, 215, 0.5);
+}
+
+.estadisticas-pokemon {
+    display: flex;
+    justify-content: space-between;
+    
+    border-radius: 15px;
+    margin: 120px 40px 10px 40px;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid #0f93f1;
+    box-shadow: 12px 10px 5px 0px rgba(215, 215, 215, 0.5);
+    width: 60%;
+    justify-self: center;
+}
+
+.scroll_list_poke {
+    max-height: 190px;
+    overflow-y: auto;
+    padding-left: 20px;
+}
+.img-detalle-pokemon {
+    width: 495px;
+}
